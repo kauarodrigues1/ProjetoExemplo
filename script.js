@@ -1,3 +1,4 @@
+/*
 // alert("Olá mundo-externo")
 
 //DECLARANDO AS VARIAVEIS
@@ -38,5 +39,24 @@ let aluno= true
 
 //array- conjunto de informaçoes
 let tecnologias= ["java", "html"]
+*/
+
+//conversões
+//converta de float para inteiro
+let numeroFloat= 123.456;
+console.log(parseInt(numeroFloat));
+
+//converta de string para float
+let numeroString = "654.321"
+console.log(parseFloat(numeroString))
+
+//converta de numero inteiro para string
+let numeroInteiro = 789
+console.log(numeroInteiro.toString())
+
+//ver o tipo da variavel
+let verTipo = typeof numeroInteiro
+console.log(verTipo)
+
 
 
